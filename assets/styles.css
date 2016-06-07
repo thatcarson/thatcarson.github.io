@@ -44,18 +44,28 @@ nav {
   font-family: "Avenir", sans-serif;
   font-size: 1.2em;
   width: 100%;
-
 }
 
 a {
   font-family: "Marion", serif;
   font-size: 1.1em;
-  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: grey;
 }
 
 a:hover {
   color:black;
 }
+
+/*a:active {
+  color:grey;
+}*/
 
 p {
   line-height: 1.6;
