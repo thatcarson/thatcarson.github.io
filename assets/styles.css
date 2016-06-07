@@ -1,7 +1,8 @@
 html {
   margin: 0;
   padding: 0;
-  background-image: url(paper_texture_02.jpg);
+  background-image: url(paper_texture.jpg);
+  background-size: cover;
   background-repeat: repeat;
   background-color: #ddd;
 }
