@@ -1,0 +1,150 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url(paper_texture_02.jpg);
+  background-repeat: repeat;
+  background-color: #ddd;
+}
+
+/*untitled header element {
+background-image: url();
+background-repeat: no-repeat;
+set the margins so it goes the whole way across?
+}*/
+
+body {
+  width: 80%;
+  height: 80%; /*not sure this is doing anything*/
+  margin: 0 auto; /*work out the margins*/
+  font: 100% "Myriad", sans-serif;
+  background: rgba(0,0,0,0.0);
+}
+
+h1 {
+  font-family: "Avenir Heavy", sans-serif; /*change this */
+  font-size: 2.5em;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 0 0 .4em;
+  /*background-color: #ddd;*
+  /* foreground */ color: inherit;
+  position: relative;
+  padding: 30px 0px 30px 0px;
+} /* change the colors throughout to something legible */
+
+h2 {
+  font-family: "Marion", serif;
+  font-size: 1.5em;
+}
+
+nav {
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+
+}
+
+a {
+  font-family: "Marion", serif;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+a:hover {
+  color:black;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+  width: 80%;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+table {
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: .5em;
+
+}
+
+td {
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: middle;
+}
+
+td:nth-child(even) {
+  text-align: center;
+}
+
+td:last-child {
+  text-align: right;
+
+}
+
+aside {
+  line-height: normal;
+  text-align: center;
+  position: relative;
+  font-style: italic;
+  font-family: "Avenir Heavy", sans-serif;
+  font-size: 1.5em;
+}
+
+/* the below are intended to govern the top (header) menu, if I want drop-downs
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  float:left;
+}
+
+nav ul::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+nav ul li:hover {
+  background-color: rgba(0,102,102,.6);
+}
+
+nav ul li:hover > ul {
+  display:block;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10 px 20px;
+  text-decoration: none;
+  width: 125px;
+}
+
+nav ul li a:hover {
+  background-color: #1919ff;
+}
+
+nav ul ul {
+  display: none;
+  postition: absolute
+  top: 100%
+  background-color: rgba(0,102,102,.6);
+}
+
+nav ul ul li {
+  position: relative;
+}
+
+nav ul ul ul {
+  left: 100%;
+  top: 0;
+}*/
