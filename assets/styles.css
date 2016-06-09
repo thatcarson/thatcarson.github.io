@@ -7,10 +7,13 @@ html {
   background-color: #ddd;
 }
 
-/*untitled header element {
-background-image: url();
-background-repeat: no-repeat;
-set the margins so it goes the whole way across?
+/*header {
+  background-image: url(junkiekosmo.png);
+  background-repeat: no-repeat;
+  background-color: #ddd;
+  width: 100%;
+  margin-bottom: .5em;
+
 }*/
 
 body {
@@ -30,7 +33,7 @@ h1 {
   margin: 0 0 .4em;
   /*background-color: #ddd;*
   /* foreground */ color: inherit;
-  position: relative;
+  /*position: relative;*/
   padding: 30px 0px 30px 0px;
 } /* change the colors throughout to something legible */
 
@@ -84,6 +87,16 @@ table {
 }
 
 th.job {
+  text-align: left;
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: middle;
+}
+
+th.role {
+  font-style: italic;
+  font-weight: normal;
   text-align: left;
   padding-right: .3em;
   padding-top: .2em;
