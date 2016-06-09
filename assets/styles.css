@@ -76,26 +76,51 @@ p {
 }
 
 table {
+  width: 100%;
   text-align: left;
   vertical-align: middle;
   margin-bottom: .5em;
 
 }
 
-td {
+th.job {
+  text-align: left;
   padding-right: .3em;
   padding-top: .2em;
   padding-bottom: .2em;
   vertical-align: middle;
 }
 
-td:nth-child(even) {
+th.date {
+  text-align: right;
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+td {
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: text-top;
+}
+
+td.location {
+  text-align: right;
+}
+
+td.desc {
+  text-align: justify;
+}
+
+td.threeCol:nth-child(even) {
   text-align: center;
 }
 
-td:last-child {
+td.threeCol:last-child {
   text-align: right;
-
 }
 
 aside {
