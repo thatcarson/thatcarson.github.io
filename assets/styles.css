@@ -59,6 +59,10 @@ a:hover {
   color:black;
 }
 
+h2 a {
+  text-decoration: none;
+}
+
 div.feature {
   width: 100%;
   position: relative;
@@ -85,17 +89,19 @@ div.feature p {
 
 div.portProjL {
   float:left;
-  width: 48%;
-  margin: .15em .15em .15em .15em
-  padding: .15em
+  height: auto;
+  max-width: auto;
+  margin: .15em .15em .15em .15em;
+  padding: .15em;
   text-align: justify;
 }
 
 div.portProjR {
   float:right;
-  width: 48%;
-  margin: .15em .15em .15em .15em
-  padding: .15em
+  height: auto;
+  max-width: auto;
+  margin: .15em .15em .15em .15em;
+  padding: .15em;
   text-align: justify;
 }
 
@@ -167,6 +173,15 @@ th.date {
 }
 
 td {
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: text-top;
+}
+
+td a {
+  font-family: inherit;
+  font-size: inherit;
   padding-right: .3em;
   padding-top: .2em;
   padding-bottom: .2em;
