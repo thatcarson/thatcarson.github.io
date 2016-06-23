@@ -77,6 +77,8 @@ div.feature img {
   margin: inherit;
   border-style: solid;
   padding:inherit;
+  width: 200px;
+  height: auto;
 
 }
 
