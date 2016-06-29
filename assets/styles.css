@@ -37,7 +37,7 @@ p {
   line-height: 1.3;
   text-align: justify;
   text-indent: 2em;
-  width: 80%;
+  width: 100%;
   margin: 0;
   margin-bottom: 1em;
 }
@@ -118,7 +118,6 @@ div.portProjR {
   padding: .15em;
   text-indent: 2em;
   text-align: justify;
-
 }
 
 div.portProjL img {
