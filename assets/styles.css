@@ -160,6 +160,17 @@ th.job {
   vertical-align: middle;
 }
 
+th.job a{
+  font-family: "Myriad", sans-serif;
+  font-size: 1em;
+  text-align: left;
+  text-decoration: none;
+  padding-right: .3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  vertical-align: middle;
+}
+
 th.role {
   font-style: italic;
   font-weight: normal;
@@ -188,7 +199,8 @@ td {
 
 td a {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 1em;
+  text-decoration: none;
   padding-right: .3em;
   padding-top: .2em;
   padding-bottom: .2em;
