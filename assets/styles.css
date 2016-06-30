@@ -162,7 +162,7 @@ th.job {
 
 th.job a{
   font-family: "Myriad", sans-serif;
-  font-size: 1em;
+  font-size: inherit;
   text-align: left;
   text-decoration: none;
   padding-right: .3em;
@@ -199,7 +199,7 @@ td {
 
 td a {
   font-family: inherit;
-  font-size: 1em;
+  font-size: inherit;
   text-decoration: none;
   padding-right: .3em;
   padding-top: .2em;
