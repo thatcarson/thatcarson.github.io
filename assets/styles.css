@@ -106,7 +106,6 @@ div.portProjL {
   max-width: auto;
   margin: .15em .15em .15em .15em;
   padding: .15em;
-  text-indent: 2em;
   text-align: justify;
 }
 
@@ -116,8 +115,15 @@ div.portProjR {
   max-width: auto;
   margin: .15em .15em .15em .15em;
   padding: .15em;
-  text-indent: 2em;
   text-align: justify;
+}
+
+div.portProjL h2 {
+  text-indent: 0em;
+}
+
+div.portProjR h2 {
+  text-indent: 0em;
 }
 
 div.portProjL img {
