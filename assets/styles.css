@@ -82,6 +82,11 @@ div.feature {
 
 }
 
+div.feature h2 {
+  text-indent: 0em;
+  text-align: center;
+}
+
 div.feature img {
   float:left;
   margin: inherit;
