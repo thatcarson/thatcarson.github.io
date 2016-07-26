@@ -69,6 +69,7 @@ a:hover {
 }
 
 h2 a {
+  font-family: "Marion", serif;
   text-decoration: none;
 }
 
@@ -164,6 +165,7 @@ table {
 }
 
 th.job {
+  font-size: 1.1em;
   text-align: left;
   padding-right: .3em;
   padding-top: .2em;
@@ -172,14 +174,14 @@ th.job {
 }
 
 th.job a{
-  font-family: "Myriad", sans-serif;
+  /*font-family: "Myriad", sans-serif;*/
   font-size: inherit;
   text-align: left;
-  text-decoration: none;
   padding-right: .3em;
   padding-top: .2em;
   padding-bottom: .2em;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 th.role {
@@ -209,7 +211,7 @@ td {
 }
 
 td a {
-  font-family: inherit;
+  /*font-family: "Myriad", sans-serif;*/
   font-size: inherit;
   /*text-decoration: none;*/
   padding-right: .3em;
