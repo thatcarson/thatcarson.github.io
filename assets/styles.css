@@ -165,6 +165,7 @@ table {
 }
 
 th.job {
+  font-family: "Myriad", sans-serif;
   font-size: 1.1em;
   text-align: left;
   padding-right: .3em;
@@ -174,7 +175,7 @@ th.job {
 }
 
 th.job a{
-  /*font-family: "Myriad", sans-serif;*/
+  font-family: "Myriad", sans-serif;
   font-size: inherit;
   text-align: left;
   padding-right: .3em;
